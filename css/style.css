@@ -1,0 +1,84 @@
+:root{
+    --primary:#6c63ff;
+    --secondary:#1e293b;
+    --bg:#f4f7fe;
+    --white:#ffffff;
+}body {
+
+    background:#eef2ff;
+    font-family:Arial, sans-serif;
+}
+
+.sidebar {
+
+    width: 250px;
+    height: 100vh;
+
+    position: fixed;
+
+    top: 56px;
+    left: 0;
+
+    background: #212529;
+}
+
+.sidebar ul {
+
+    list-style: none;
+
+    padding: 0;
+}
+
+.sidebar ul li {
+
+    padding: 15px;
+}
+
+.sidebar ul li a {
+
+    color: white;
+
+    text-decoration: none;
+
+    display: block;
+}
+
+.sidebar ul li:hover {
+
+    background: #343a40;
+}
+
+.content {
+
+    margin-left: 270px;
+
+    padding: 20px;
+}
+.total-card{
+    background: linear-gradient(135deg, #2563eb, #60a5fa);
+    color: white;
+}
+
+.pending-card{
+    background: linear-gradient(135deg, #f59e0b, #fbbf24);
+    color: white;
+}
+
+.progress-card{
+    background: linear-gradient(135deg, #06b6d4, #67e8f9);
+    color: white;
+}
+
+.resolved-card{
+    background: linear-gradient(135deg, #16a34a, #4ade80);
+    color: white;
+}
+
+.card-box h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.card-box p{
+    font-size: 18px;
+}
